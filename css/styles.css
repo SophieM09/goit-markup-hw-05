@@ -25,6 +25,10 @@
     height: auto;
  }
 
+ input {
+    font-family: inherit;
+ }
+
  .container {
     width: 100%;
     max-width: 1158px;
@@ -450,11 +454,18 @@
 .bottom-container {
     display: flex;
     flex-direction: row;
-    align-items: baseline;
+    align-items: flex-start;
+    justify-content: space-between;
+    max-width: 1158px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
 .subaccent-container {
     margin-right: 120px;
+    max-width: 264px;
+    width: 100%;
 }
 
  .bottom-part {
@@ -470,9 +481,14 @@
      line-height: 1.5;
      color: #F4F4FD;
      letter-spacing: 0.02em;
+     width: 100%;
      max-width: 264px;
  }
 
+ .subaccent-socials {
+    margin-right: 80px;
+ }
+ 
  .sub-socials-title {
     font-family: "Roboto", sans-serif;
     color: #FFFFFF;
@@ -513,4 +529,68 @@
 
  .sub-socials-link:focus {
     background-color: #31d0aa;
+ }
+
+ .subaccent-form {
+    display: flex;
+    align-items: flex-end;
+    gap: 24px;
+ }
+
+ .input-container {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+ }
+
+ .subscription-form-label {
+    font-family: "Roboto", sans-serif;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    margin-bottom: 16px;
+ }
+
+ .subscription-form-input {
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    background-color: transparent;
+    border-radius: 4px;
+    width: 264px;
+    height: 40px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    padding: 8px 16px;
+ }
+
+ .subscription-form-input::placeholder {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+ }
+
+ .subscription-form-button {
+    display: block;
+    border-radius: 4px;
+    padding: 8px 24px;
+    width: 165px;
+    height: 40px;
+    cursor: pointer;
+    height: 40px;
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+    border: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    text-align: center;
  }
