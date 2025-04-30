@@ -676,7 +676,7 @@
 
 .modal-close-btn:hover,
 .modal-close-btn:focus {
-    background-color: #4D5AE5;
+    background-color: #404bbf;
     border: none;
 }
 
@@ -706,7 +706,7 @@
 }
 
 .modal-input-container {
-    margin-bottom: 8px;
+    margin-bottom: 16px;
 }
 
 .modal-label {
@@ -788,6 +788,7 @@
      display: flex;
      gap: 8px;
      margin-top: 16px;
+     margin-bottom: 24px;
 }
 
 .modal-checkbox {
@@ -811,6 +812,7 @@
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 2px;
     background-color: transparent;
+    fill: transparent;
     margin-right: 8px;
     position: relative;
     vertical-align: middle;
@@ -841,7 +843,7 @@
     color: #8e8f99;
     font-weight: 400;
     font-size: 12px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.04em;
     cursor: pointer;
 }
@@ -865,7 +867,7 @@
     line-height: 1.5;
     letter-spacing: 0.04em;
     text-align: center;
-    width: 169px;
+    min-width: 169px;
     height: 56px;
     background-color: #4D5AE5 ;
     color: #FFFFFF;
