@@ -706,7 +706,7 @@
 }
 
 .modal-input-container {
-    margin-bottom: 16px;
+    margin-bottom: 8px;
 }
 
 .modal-label {
@@ -766,7 +766,6 @@
     width: 100%;
     padding: 8px 16px;
     resize: none;
-    outline: none;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
