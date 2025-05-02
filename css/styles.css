@@ -709,6 +709,10 @@
     margin-bottom: 8px;
 }
 
+.modal-comment-container {
+    margin-bottom: 16px;
+}
+
 .modal-label {
     display: block;
     margin-bottom: 4px;
@@ -722,7 +726,6 @@
 
 .input-wrapper {
     position: relative;
-    margin-bottom: 16px;
 }
 
 .modal-input {
